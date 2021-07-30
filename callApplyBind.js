@@ -17,3 +17,7 @@ let bike = {
 // apply is eactly same as call method, difference is that it takes second argument as array list of the parameters which need to be passed to the printDetails function
 printDetails.apply(bike, ["2020", "Black"]);
 
+// bind method does not directly invoke the method but gives you the copy of the exactly same method which can be invoked later
+let myCarInfo = printDetails.bind(car, "2021", "Pearl White");
+console.log(myCarInfo); // prints the function printDetails
+myCarInfo(); 
