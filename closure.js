@@ -24,3 +24,13 @@ function outer() {
     inner();
 }
 outer();
+
+function x() {
+    var a = 10;
+    function add(b) {
+        return a + b;
+    }
+    return add;
+}
+var c = x();
+var sum = c(20);
