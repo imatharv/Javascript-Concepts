@@ -34,3 +34,4 @@ function x() {
 }
 var c = x();
 var sum = c(20);
+console.log("Sum of two numbers = ",sum); // it will output 30
