@@ -8,7 +8,7 @@ var a = 5; // try with let and const
 function getValue() {
     console.log("function getValue() just called!");
 }
-// dont allocate space for this at the beginning of execution cause of var type
+// dont allocate space for this at the beginning of execution because of var type
 var getData = () => {
     console.log("function getData() just called!");
 };
