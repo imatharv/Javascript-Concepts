@@ -14,3 +14,13 @@ function closureExample() {
     }
 }
 closureExample();
+
+// If the function executed in the other scope it still remembers its lexical environment
+function outer() {
+    var a = 5;
+    function inner() {
+        console.log("Value of a = ",a);
+    }
+    inner();
+}
+outer();
