@@ -8,6 +8,5 @@
 - Hoisting
 - Call-Apply-Bind
 - Callbacks
-- Async-Await Promise
 
 <br />
